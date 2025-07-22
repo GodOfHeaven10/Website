@@ -4,7 +4,7 @@ const sitesBody = document.querySelector("body");
 
 for (i = 0; i < array.length; i++) {
     const div = document.createElement("div");
-    document.appendChild(div);
+    sitesBody.appendChild(div);
     div.id = "Array"+i;
     div.textContent = "Array"+i;
     console.log('Appended: '+div);
