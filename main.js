@@ -13,5 +13,6 @@ for (i = 0; i < array.length; i++) {
     div.style.width = "100px"
     div.style.height = "50px"
     div.style.textAlign = "center"
+    div.style.fontSize = "50px"
     console.log('Appended: '+div);
 }
