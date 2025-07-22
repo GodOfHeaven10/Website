@@ -15,7 +15,7 @@ for (i = 0; i < array.length; i++) {
     div.style.textAlign = "center"
     div.style.fontSize = "50px"
     div.style.fontWeight = "bold"
-    div.style.fontFamily = "Quicksand", sans-serif;
+    div.style.fontFamily = '"Quicksand", sans-serif'
     div.style.borderRadius = "25px"
     console.log('Appended: '+div);
 }
