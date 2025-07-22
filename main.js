@@ -6,6 +6,6 @@ for (i = 0; i < array.length; i++) {
     const div = document.createElement("div");
     sitesBody.appendChild(div);
     div.id = "Array"+i;
-    div.textContent = "Array"+i;
+    div.textContent = array[i];
     console.log('Appended: '+div);
 }
