@@ -1,7 +1,11 @@
 var array = ['Button1', 'Button2', 'Button3', 'Button4', 'Button5']
 
-const body = document.querySelector
+const arrayOfDivs = document.createElement("div")
+
+const body = document.querySelector("body")
 
 for (i = 0; i < array.length; i++) {
-  
+    document.createElement("div", "DivArray"+i)
+    document.appendChild()
+    console.log(array[i])
 }
