@@ -8,3 +8,11 @@ for (i = 0; i < array.length; i++) {
     document.createElement("div", "DivArray"+i)
     console.log(array[i])
 }
+
+let test = 57
+
+console.log(test)
+
+test = tets
+console.log(tets)
+console.log(test)
