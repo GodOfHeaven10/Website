@@ -9,5 +9,8 @@ for (i = 0; i < array.length; i++) {
     div.textContent = array[i];
     div.style.backgroundColor = "white";
     div.style.color = "#959595ff";
+    div.style.padding = "25px"
+    div.style.width = "100px"
+    div.style.height = "50px"
     console.log('Appended: '+div);
 }
