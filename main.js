@@ -7,6 +7,6 @@ for (i = 0; i < array.length; i++) {
     sitesBody.appendChild(div);
     div.id = "Array"+i;
     div.textContent = array[i];
-    div.style.backgroundColor = #FFF
+    div.style.backgroundColor = "white";
     console.log('Appended: '+div);
 }
