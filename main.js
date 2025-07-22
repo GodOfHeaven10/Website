@@ -6,6 +6,5 @@ const body = document.querySelector("body")
 
 for (i = 0; i < array.length; i++) {
     document.createElement("div", "DivArray"+i)
-    document.appendChild()
     console.log(array[i])
 }
