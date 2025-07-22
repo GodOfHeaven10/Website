@@ -8,6 +8,6 @@ for (i = 0; i < array.length; i++) {
     div.id = "Array"+i;
     div.textContent = array[i];
     div.style.backgroundColor = "white";
-    div.style.color = #D9D9D9
+    div.style.color = #959595ff
     console.log('Appended: '+div);
 }
