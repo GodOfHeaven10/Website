@@ -7,12 +7,15 @@ for (i = 0; i < array.length; i++) {
     sitesBody.appendChild(div);
     // div.id = "Array"+i;
     div.textContent = array[i];
-    div.style.backgroundColor = "white";
-    div.style.color = "#959595ff";
+    div.style.backgroundColor = "#D9D9D9";
+    div.style.color = "#FFFFFF";
     div.style.padding = "25px"
     div.style.width = "100px"
     div.style.height = "50px"
     div.style.textAlign = "center"
     div.style.fontSize = "50px"
+    div.style.fontWeight = "bold"
+    div.style.fontFamily: "Quicksand", sans-serif;
+    div.style.borderRadius = "25px"
     console.log('Appended: '+div);
 }
