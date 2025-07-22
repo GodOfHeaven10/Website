@@ -5,7 +5,7 @@ const sitesBody = document.querySelector("body");
 for (i = 0; i < array.length; i++) {
     const div = document.createElement("div");
     sitesBody.appendChild(div);
-    // div.id = "Array"+i;
+    div.id = "Array"+i;
     div.textContent = array[i];
     div.style.backgroundColor = "#D9D9D9";
     div.style.color = "#FFFFFF";
