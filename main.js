@@ -1,4 +1,4 @@
-var array = ['Button1', 'Button2', 'Button3', 'Button4', 'Button5'];
+var array = ['Button 1', 'Button 2', 'Button 3', 'Button 4', 'Button 5'];
 
 const sitesBody = document.querySelector("body");
 
@@ -7,5 +7,6 @@ for (i = 0; i < array.length; i++) {
     sitesBody.appendChild(div);
     div.id = "Array"+i;
     div.textContent = array[i];
+    div.style.backgroundColor = #FFF
     console.log('Appended: '+div);
 }
